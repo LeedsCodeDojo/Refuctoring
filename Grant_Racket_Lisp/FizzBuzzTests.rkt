@@ -2,9 +2,10 @@
 
 (require
   rackunit
-  "FizzBuzz_Nice.rkt"
+  ;"FizzBuzz_Nice.rkt"
   ;"FizzBuzz_Example.rkt"
   ;"FizzBuzz_Nasty.rkt"
+  "FizzBuzz_DateCheck.rkt"
  )
 
 (check-equal? (fizz 1) "1" "single number converted to string")
