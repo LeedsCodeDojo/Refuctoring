@@ -6,7 +6,7 @@
 ; Disguise Data
 ; Inline Method
 ; Nest Deeply
-; Reverse If Ordering
+; Reverse If
 
 (define fizz 
   (lambda 

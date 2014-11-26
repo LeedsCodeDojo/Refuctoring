@@ -1,7 +1,11 @@
 #lang racket/base
 
-(require rackunit
-         "FizzBuzz_Nasty.rkt")
+(require
+  rackunit
+  "FizzBuzz_Nice.rkt"
+  ;"FizzBuzz_Example.rkt"
+  ;"FizzBuzz_Nasty.rkt"
+ )
 
 (check-equal? (fizz 1) "1" "single number converted to string")
 (check-equal? (fizz 2) "2" "single number converted to string")
