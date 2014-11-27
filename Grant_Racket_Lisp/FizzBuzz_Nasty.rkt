@@ -5,7 +5,7 @@
 ; Nest Deeply
 ; Inline Method
 ; Disguise Data
-; Unnecessary Lambdas
+; Inappropriate Lambdas
 
 (define fizz 
   (lambda (number)
