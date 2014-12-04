@@ -183,3 +183,10 @@ FakesAssemblies/
 
 # Erlang compiled files
 *.beam
+
+/target
+/*.iml
+/.idea
+/Adam_RefuctoringJava/target
+/Adam_RefuctoringJava/.idea
+/Adam_RefuctoringJava/*.iml
