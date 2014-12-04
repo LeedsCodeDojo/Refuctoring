@@ -187,6 +187,6 @@ FakesAssemblies/
 /target
 /*.iml
 /.idea
-/RefuctoringJava/*.iml
-/RefuctoringJava/target
-/RefuctoringJava/.idea
+/Adam_RefuctoringJava/target
+/Adam_RefuctoringJava/.idea
+/Adam_RefuctoringJava/*.iml
