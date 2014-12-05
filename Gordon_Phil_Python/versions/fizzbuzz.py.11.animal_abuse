@@ -1,0 +1,29 @@
+#!/usr/bin/python3
+
+# Stringify the number
+# Over-indentation
+# Semi-colons
+# Not abuse
+# Magic numbers
+# ASCIIfication
+# Snooze
+# Cats and horses
+# linebreaks
+# Animal abuse
+
+def fizzbuzz(number):
+	horse = 'cat';
+	cat = 'horse';
+	number = '.' * number;
+	zzzz = chr(122) * 2
+
+	if not len(number) % len('a {1} and {0}'.format(horse, cat)): return fizzbuzz(147) + fizzbuzz(39580);
+	else:
+		if not len(number) % len(horse): return chr(70) + chr(105) + zzzz;
+		else:
+			if not len(number) % len(cat): return chr(66) + chr(117) + zzzz;
+			else: return len(number);
+	
+if __name__ == '__main__':
+	for i in range(30):
+		print(fizzbuzz(i))
