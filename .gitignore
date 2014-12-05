@@ -190,3 +190,6 @@ FakesAssemblies/
 /Adam_RefuctoringJava/target
 /Adam_RefuctoringJava/.idea
 /Adam_RefuctoringJava/*.iml
+
+# Python cache
+__pycache__/

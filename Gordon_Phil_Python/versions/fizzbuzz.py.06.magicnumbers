@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+
+# Stringify the number
+# Over-indentation
+# Semi-colons
+# Not abuse
+# Magic numbers
+
+def fizzbuzz(number):
+	number = '.' * number;
+
+	if not len(number) % 15:
+		return fizzbuzz(147) + fizzbuzz(39580);
+	else:
+		if not len(number) % 3:
+			return 'Fizz';
+		else:
+			if not len(number) % 5:
+				return 'Buzz';
+			else:
+				return len(number);
+	
+if __name__ == '__main__':
+	for i in range(30):
+		print(fizzbuzz(i))
